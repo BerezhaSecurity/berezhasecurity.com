@@ -13,7 +13,7 @@
 		calc.vars =
 		{
 
-			 hpd					: 8 * 0.7
+			 hpd					: 8
 			,rate					: 50
 
 			,commons : {
