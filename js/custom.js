@@ -13,15 +13,15 @@
 		calc.vars =
 		{
 
-			 hpd					: 8
-			,rate					: 50
+			 hpd					: 8 * 0.8
+			,rate					: 52.5
 
 			,commons : {
 
 					 recon			: 2
 					,reporting		: 4
-					,translation		: 4
-					,presentation		: 2
+					,translation	: 4
+					,presentation	: 2
 					,factor			: 1.25
 			}
 
@@ -29,8 +29,8 @@
 
 				hosts : {
 
-					 recon			: 0.5
-					,scanning		: 0.5
+					 recon			: 1
+					,scanning		: 1
 					,validation		: 1
 					,reporting		: 1
 					,factor			: 1
@@ -39,7 +39,7 @@
 
 				,apps : {
 
-					 recon			: 0.5
+					 recon			: 1
 					,scanning		: 1
 					,validation		: 2
 					,reporting		: 2
@@ -48,8 +48,8 @@
 
 				,services : {
 
-					 recon			: 0.5
-					,scanning		: 0.5
+					 recon			: 1
+					,scanning		: 2
 					,validation		: 1
 					,reporting		: 1
 					,factor			: 2
@@ -62,7 +62,7 @@
 
 					 recon			: 0.25
 					,pretexting		: 0.25
-					,communication		: 0.1
+					,communication	: 0.1
 					,reporting		: 0.15
 					,factor			: 1
 				}
