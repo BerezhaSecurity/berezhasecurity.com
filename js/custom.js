@@ -14,7 +14,7 @@
 		{
 
 			 hpd					: 8 * 0.7
-			,rate					: 100
+			,rate					: 55.125
 
 			,commons : {
 
