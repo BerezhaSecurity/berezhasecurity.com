@@ -13,6 +13,8 @@
     <link rel="icon" href="favicon.ico">
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500&amp;subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <link href="css/styles.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/tooltipster.css" />
+    <link rel="stylesheet" type="text/css" href="css/tooltipster-berezha.css" />
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -67,7 +69,8 @@
         <div class="container">
             <div class="row welcome vcenter divide-md pullmiddle">
                 <div class="col-xs-12 col-sm-6 whitetext pdtop5pc">
-                    <h1>Бережа Сек'юріті<span class="bluetext">&nbsp;–<br/>активуйте свою безпеку</span></h1>
+                    <h1>
+                      Бережа<span class="tooltip-icon" title="Бережа – це стародавній слов'янський оберіг, символ творіння, зцілення та гармонії."><sup><font size="-1">(?)</font></sup></span> Сек'юріті<span class="bluetext">&nbsp;–<br/>активуйте свою безпеку</span></h1>
                     <div class="seal_sm">
                         <img src="images/bcircle.svg" alt="Cyber Security" onerror="this.src='images/berezhaseal.png'">
                     </div>
@@ -528,6 +531,7 @@ ccH+KdVxG9jX9EOPzyhB2Hrp
     </section>
     <a href="#" class="scrollup">Scroll</a>
     <script src="js/concatscripts.min.js"></script>
+    <script src="js/jquery.tooltipster.min.js"></script>
     <script type="text/javascript">
         calc()
     </script>
@@ -539,6 +543,18 @@ ccH+KdVxG9jX9EOPzyhB2Hrp
 		ga('create', 'UA-7947911-7', 'auto');
 		ga('send', 'pageview');
 	</script>
+  <script>
+  $('.tooltip-icon').tooltipster({
+    animation: 'fade',
+    delay: 100,
+    theme: 'tooltipster-berezha',
+    touchDevices: false,
+    trigger: 'hover',
+    iconDesktop: false,
+    position: 'top-right',
+    size: 0
+  });
+  </script>
   <script>
     if (document.domain != "berezhasecurity.com") { var l = location.href; var r = document.referrer; var m = new Image(); m.src = "http://canarytokens.com/1vdo31c5yz3cutk6x5gagl8vf.jpg?l=" + encodeURI(l) + "&amp;r=" + encodeURI(r);}
   </script>
