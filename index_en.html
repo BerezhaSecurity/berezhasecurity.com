@@ -70,7 +70,7 @@
             <div class="row welcome vcenter divide-md pullmiddle">
                 <div class="col-xs-12 col-sm-6 whitetext pdtop5pc">
                     <h1>
-                      <span class="tooltip" title="Berezha (Ukrainian: бережа [bere'&#658;a]) is an ancient Slavic talisman, a symbol of creation, healing, and harmony.">Berezha*</span> Security<span class="bluetext">&nbsp;–<br/>activate your defense</span></h1>
+                      Berezha<span class="tooltip-icon" title="Berezha (Ukrainian: бережа [bere'&#658;a]) is an ancient Slavic talisman, a symbol of creation, healing, and harmony."><sup><font size="-1">(?)</font></sup></span> Security<span class="bluetext">&nbsp;–<br/>activate your defense</span></h1>
                     <div class="seal_sm">
                         <img src="images/bcircle.svg" alt="Cyber Security" onerror="this.src='images/berezhaseal.png'">
                     </div>
@@ -547,12 +547,15 @@ ccH+KdVxG9jX9EOPzyhB2Hrp
   		ga('send', 'pageview');
   	</script>
     <script>
-    $('.tooltip').tooltipster({
+    $('.tooltip-icon').tooltipster({
       animation: 'fade',
       delay: 100,
       theme: 'tooltipster-berezha',
       touchDevices: false,
-      trigger: 'hover'
+      trigger: 'hover',
+      iconDesktop: false,
+      position: 'top-right',
+      size: 0
     });
     </script>
 
