@@ -1,0 +1,12 @@
+.tooltipster-berezha {
+	border-radius: 5px;
+	border-bottom: 3px solid #337ab7;
+	background: #ffffff;
+	color: #555555;
+}
+.tooltipster-berezha .tooltipster-content {
+	font-family: 'Helvetica', monospace;
+	font-size: 14px;
+	line-height: 16px;
+	padding: 8px 10px;
+}
