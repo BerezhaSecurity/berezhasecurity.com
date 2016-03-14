@@ -2199,7 +2199,7 @@ opacity: .2
         font-size: 1.4em;
     }
     .topphone {
-        display: none;
+        font-size:1em;
     }
 }
 
@@ -2405,7 +2405,7 @@ opacity: .2
 }
 
 .seal_sm_wrap{
-    
+
 }
 .seal_sm img, .seal img {
     width:90%;
@@ -2433,7 +2433,7 @@ opacity: .2
 }
 
 img[src*=".svg"] {
-    width: 100%; 
+    width: 100%;
   }
 
 .withicn {
@@ -2916,7 +2916,7 @@ ul.hasicon li:before {
 }
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
 .pullmiddle {
 display: flex;
     align-items: center;
